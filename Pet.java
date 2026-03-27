@@ -4,8 +4,8 @@ public abstract class Pet {
     protected String name;
     protected int hunger;        // 0 to 100
     protected int happiness;     // 0 to 100
-    protected int energy;        // 0 to 100
-    protected int cleanliness;   // 0 to 100
+    protected int energy;        
+    protected int cleanliness;  
 
     public Pet(String name) {
         this.name = name;
