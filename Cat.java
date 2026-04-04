@@ -18,8 +18,8 @@ import javafx.animation.SequentialTransition;
 import javafx.animation.ScaleTransition;
 import javafx.animation.TranslateTransition;
 import javafx.animation.Interpolator;
-import javafx.scene.media.AudioClip;   // For playing sound
-import java.io.File;                   // For handling file paths
+import javafx.scene.media.AudioClip;   
+import java.io.File;                 
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.geometry.Bounds;
