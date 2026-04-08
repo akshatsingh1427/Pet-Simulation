@@ -2,8 +2,8 @@ package main;
 
 public abstract class Pet {
     protected String name;
-    protected int hunger;        // 0 to 100
-    protected int happiness;     // 0 to 100
+    protected int hunger;        
+    protected int happiness;     
     protected int energy;        
     protected int cleanliness;  
 
@@ -16,7 +16,7 @@ public abstract class Pet {
     }
 
     public void feed() { 
-        hunger = Math.min(100, hunger + 20); // increases satisfaction
+        hunger = Math.min(100, hunger + 20);
         clampStats(); 
     }
 
